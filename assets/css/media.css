@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .box-banner,
+    .company-info-title {
+        width: 90%;
+    }
+
+    .box-banner-info {
+        justify-content: center;
+    }
+
+    .box-background,
+    .box-banner-title {
+        width: 330px;
+    }
+
+    .company-info-title h2 {
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+    }
+
+    .company-info-title p {
+        font-size: 0.9rem;
+    }
+
+    .services {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section:nth-child(3) {
+        width: 100%;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .form-data {
+        width: 100%;
+        justify-content: center;
+    }
+
+    form {
+        padding: 40px 0;
+    }
+
+    form input, textarea {
+        width: 300px;
+    }
+
+    form input[type="submit"] {
+        margin: auto;
+    }
+    
+}
+
+@media (max-width: 360px) {
+
+    .box-background,
+    .box-banner-title {
+        width: 320px;
+    }
+
+    .company-info-title h2 {
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+
+    .company-info-title p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 280px) {
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .box-background,
+    .box-banner-title {
+        width: 250px;
+    }
+
+    .box-banner-title h1 {
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+    }
+    
+    .box-banner-title p {
+        font-size: 0.8rem;
+    }
+
+    .company-info-title h2 {
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+
+    .company-info-title p {
+        font-size: 0.8rem;
+    }
+}
